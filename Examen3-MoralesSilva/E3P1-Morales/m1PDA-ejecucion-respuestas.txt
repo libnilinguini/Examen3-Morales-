@@ -1,0 +1,10 @@
+Ejecuciones:
+- acceptFinalState m1PDA "" = False
+- acceptFinalState m1PDA "abc" = True
+- acceptFinalState m1PDA "aabbcc" = True
+- acceptFinalState m1PDA "aabbc" = False
+
+Respuesta 1c:
+No existe un PDA que acepte L_x = {a^n b^n c^n | n ∈ ℕ}, 
+porque L_x no es un lenguaje libre de contexto 
+y un PDA (determinista o no) solo puede aceptar lenguajes libres de contexto, y este caso no lo es.

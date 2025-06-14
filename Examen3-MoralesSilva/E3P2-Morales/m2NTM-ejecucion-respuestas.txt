@@ -1,0 +1,10 @@
+Ejecuciones:
+- nTMaccepts m2NTM "" = False
+- nTMaccepts m2NTM "ac" = True
+- nTMaccepts m2NTM "aabca" = False
+- nTMaccepts m2NTM "aabccbac" = True
+
+Respuesta 2c:
+Sí, para todo lenguaje Lx ⊆ Σ⋆ existe una NTM que lo acepta, 
+porque las NTMs son equivalentes en poder a las DTMs y pueden 
+reconocer cualquier lenguaje recursivamente enumerable.
